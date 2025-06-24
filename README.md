@@ -17,12 +17,6 @@ Entity Framework Core - ORM ve veritabanı işlemleri
 SQL Server LocalDB - Geliştirme ortamı veritabanı
 HtmlAgilityPack - Web scraping ve HTML parsing
 
-Frontend
-
-Angular - Modern SPA framework
-TypeScript - Tip güvenli JavaScript
-Bootstrap/Material Design - UI komponentleri
-
 AI & ML
 
 Hugging Face Transformers API - Metin özetleme modelleri
@@ -36,14 +30,6 @@ NewsOzetleyici/
 │   ├── NewsOzetleyici.Core/         # İş mantığı ve domain modelleri
 │   ├── NewsOzetleyici.Data/         # Veri erişim katmanı
 │   └── NewsOzetleyici.Services/     # Servis implementasyonları
-│
-├── Frontend/                        # Angular uygulaması
-│   ├── src/
-│   │   ├── app/
-│   │   ├── assets/
-│   │   └── environments/
-│   ├── package.json
-│   └── angular.json
 │
 ├── README.md
 └── .gitignore
