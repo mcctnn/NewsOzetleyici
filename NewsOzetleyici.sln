@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewsOzetleyici.Backend", "NewsOzetleyici.Backend", "{E80192F2-7947-4B00-A224-A049B474D1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsOzetleyici.API", "src\NewsOzetleyici.Backend\NewsOzetleyici.API\NewsOzetleyici.API.csproj", "{89AE1735-D5E6-4DBB-9BD9-9CDC01E63F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsOzetleyici.Core", "src\NewsOzetleyici.Backend\NewsOzetleyici.Core\NewsOzetleyici.Core.csproj", "{CC38A0EF-3815-4911-8218-C3DACB0B165D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsOzetleyici.Data", "src\NewsOzetleyici.Backend\NewsOzetleyici.Data\NewsOzetleyici.Data.csproj", "{19EC8833-B0E1-4BF5-B4BE-C6E83CE3A4CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsOzetleyici.Services", "src\NewsOzetleyici.Backend\NewsOzetleyici.Services\NewsOzetleyici.Services.csproj", "{A8A6F3E1-1BDD-46FF-8760-9616D7F0A4A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89AE1735-D5E6-4DBB-9BD9-9CDC01E63F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89AE1735-D5E6-4DBB-9BD9-9CDC01E63F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89AE1735-D5E6-4DBB-9BD9-9CDC01E63F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89AE1735-D5E6-4DBB-9BD9-9CDC01E63F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC38A0EF-3815-4911-8218-C3DACB0B165D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC38A0EF-3815-4911-8218-C3DACB0B165D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC38A0EF-3815-4911-8218-C3DACB0B165D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC38A0EF-3815-4911-8218-C3DACB0B165D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EC8833-B0E1-4BF5-B4BE-C6E83CE3A4CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EC8833-B0E1-4BF5-B4BE-C6E83CE3A4CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EC8833-B0E1-4BF5-B4BE-C6E83CE3A4CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EC8833-B0E1-4BF5-B4BE-C6E83CE3A4CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A6F3E1-1BDD-46FF-8760-9616D7F0A4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A6F3E1-1BDD-46FF-8760-9616D7F0A4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A6F3E1-1BDD-46FF-8760-9616D7F0A4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A6F3E1-1BDD-46FF-8760-9616D7F0A4A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E80192F2-7947-4B00-A224-A049B474D1AE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{89AE1735-D5E6-4DBB-9BD9-9CDC01E63F74} = {E80192F2-7947-4B00-A224-A049B474D1AE}
+		{CC38A0EF-3815-4911-8218-C3DACB0B165D} = {E80192F2-7947-4B00-A224-A049B474D1AE}
+		{19EC8833-B0E1-4BF5-B4BE-C6E83CE3A4CB} = {E80192F2-7947-4B00-A224-A049B474D1AE}
+		{A8A6F3E1-1BDD-46FF-8760-9616D7F0A4A8} = {E80192F2-7947-4B00-A224-A049B474D1AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {755C40A9-7A7E-43FE-88F9-BE571A92DE7F}
+	EndGlobalSection
+EndGlobal
